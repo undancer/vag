@@ -1,0 +1,2 @@
+- name: Vagrant-VirtualBox-with-repos-Vagrantfile
+  uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
