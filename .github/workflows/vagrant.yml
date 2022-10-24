@@ -6,7 +6,8 @@ jobs:
     steps:
     # - name: Vagrant-VirtualBox-with-repos-Vagrantfile
       # uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
-    - run: |
+    - name: vagrant
+      run: |
         run() {
           printf "\033[0;35m==>\033[0m \033[0;32m%b\n\033[0m" "$*"
           $@
