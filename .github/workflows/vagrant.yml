@@ -1,2 +1,8 @@
-- name: Vagrant-VirtualBox-with-repos-Vagrantfile
-  uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
+name: Build
+on: [push]
+jobs:
+  build-on-openbsd:
+    runs-on: macos-10.15
+    steps:
+    - name: Vagrant-VirtualBox-with-repos-Vagrantfile
+      uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
